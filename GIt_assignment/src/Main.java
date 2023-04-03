@@ -12,10 +12,10 @@ public class Main {
 
         String name = scanner.nextLine();
         System.out.println("enter the age");
-        int age = scanner.nextInt();
+        int ageOfPerson = scanner.nextInt();
 
         //create object
-        Person person = new Person(name, age);
+        Person person = new Person(name, ageOfPerson);
 
         //validating age
         if (person.isValidAge())
