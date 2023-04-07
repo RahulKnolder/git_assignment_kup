@@ -1,10 +1,10 @@
 public class Person {
     private String name;
-    private int age;
+    private int ageOfPerson;  //fixed typeo error
 
     public Person(String name, int age) {
         this.name = name;
-        this.age = age;
+        this.ageOfPerson = age;
     }
 
     public String getName() {
@@ -16,11 +16,11 @@ public class Person {
     }
 
     public int getAge() {
-        return age;
+        return ageOfPerson;
     }
 
     public void setAge(int age) {
-        this.age = age;
+        this.ageOfPerson = age;
     }
 
 
