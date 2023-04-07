@@ -1,8 +1,8 @@
-public class Project {
-    private String name ;
-    private  int age;
+public class Person {
+    private String name;
+    private int age;
 
-    public Project(String name, int age) {
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -21,5 +21,13 @@ public class Project {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+
+    boolean isValidAge() {
+        if (getAge() >= 18)
+            return true;
+        else
+            return false;
     }
 }
